@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ChatBot</title>
+  <base href="https://ella18dist.herokuapp.com/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://stackabuse.com/assets/images/apple-touch-icon-72x72.png?v=cb1be42ec5" type="image/x-icon"/>
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.41.0.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.360faf7563ae94e70794.css"></head>
+<body>
+  <script>
+    var DATA = {
+      title: 'ELLA',
+      lexPoolId: 'us-east-1:8a63d91d-db0a-4e27-93f3-6e3e3a2c116a',
+      lexBotName: 'DoctorAppointment',
+      lexBotAlias: '$LATEST',
+      avatarUrl: 'https://www.cedextech.com/demo/chat-ui/v6.0/assets/images/avatarBlack.png',
+      logoUrl: 'https://www.gravitas.bot/img/avatar.png',
+      welcomeImageUrl: 'https://www.cedextech.com/demo/chat-ui/templates/assets/images/ella-1.jpg',
+      welcomeMessageHeading: 'Welcome',
+      welcomeMessageData: "Hello, I am Ella. I can help you 24/7 to manage your appointments. By using our chat you confirm that you understand and accept the terms of use of use and consent to how we will use the information you provide. Please click on Terms & Conditions to read them.",
+      termsConditionMessage: "By using Ella, you are providing consent for allowing the use of your data for marketing purposes. If you don't wish to provide your data (name, email address etc) to us, we won't be able to give you a full service on chat due to our GDPR commitments.",
+      quickReplies: [
+        {text: 'Book Appointment', value: 'Book Appointment'},
+        { text: 'My Appointment', value: 'My Appointment' },
+        { text: 'Contact Us', value: 'ContactUs' },
+        { text: 'Exit chat', value: 'Exit chat' }
+        // { text: 'Welcome intent', value: 'DoctorWelcome' },
+        // { text: 'Reschedule Appointment', value: 'Reschedule'}
+        // {text: 'Book table', value: 'Book Table'},
+        // {text: 'My Reservations', value: 'My Reservations'},
+        // {text: 'Review', value: 'Review'},
+        // {text: 'View Menu', value: 'View Menu'},
+        // {text: 'Contact Us', value: 'Contact Us'}
+      ],
+      theme: 'golden',
+      launchMessage: 'Hey there'
+    };
+    // console.log("Total DATA");
+    // console.log(DATA);
+    </script>
+
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.9f3fa006ba213e86e40a.js"></script><script type="text/javascript" src="scripts.5cf3471fbcaf59cde1aa.js"></script><script type="text/javascript" src="main.a9d56fcd216b23624215.js"></script></body>
+
+</html>
